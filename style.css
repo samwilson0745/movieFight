@@ -1,0 +1,92 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin:0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  height: 190px;
+}
+.bg{
+  background-color: #83befa;
+  width:100%;
+  animation: mymove 5s infinite;
+}
+.right{
+  float: right;
+}
+.col{
+  width:960px;
+  padding-left: 40px;
+}
+.input{
+  height: 36px;
+  width: 40vw;
+  text-overflow:ellipsis;
+}
+
+#input1,#input2,#result1,#result2{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.scrollable-menu{
+    height: auto;
+    max-height: 200px;
+    width:40vw;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.img{
+  height: 50px;
+  width: 35px;
+}
+.notify{
+  border-radius: 15px;
+  background-color: #83befa;
+  width:calc(50px + 35vw);
+  animation:mymove 5s infinite;
+}
+#result1,#result2,.media{
+  width: 550px;
+}
+.image{
+  height: 200px;
+  width: 150px;
+}
+.content{
+  border-radius: 15px;
+  background-color: #83befa;
+  width:40vw;
+  padding: 24px;
+  animation:mymove 5s infinite;
+}
+.textsize{
+  font-size: 4.5vmin !important;
+}
+.textsize1{
+  font-size: 3.8vmin !important;
+}
+.initials{
+  width: 40vw;
+}
+.greater{
+  border-radius: 15px;
+  background-color: rgb(82, 245, 131);
+  width: 40vw;
+  padding: 24px;
+  animation: move1 5s infinite;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+@keyframes mymove {
+  50% {background-color: rgb(133, 133, 248);}
+}
+@keyframes move1{
+  50% {background-color: rgb(170, 250, 150);}
+}
